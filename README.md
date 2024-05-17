@@ -1,9 +1,9 @@
 THOI DÕI BẢNG XẾP HẠNG CỦA CÁC ĐỘI BÓNG TRONG GIẢI ĐẤU
 1. Cơ sở dữ liệu:
-     *Bảng Competitions: Lưu trữ thông tin về các giải đấu.
+     * Bảng Competitions: Lưu trữ thông tin về các giải đấu.
         - competition_id: ID của giải đấu (Primary Key)
         - name: Tên của giải đấu
-    *Bảng Matches: Lưu trữ thông tin về các trận đấu.
+    * Bảng Matches: Lưu trữ thông tin về các trận đấu.
         - match_id: ID của trận đấu (Primary Key)
         - competition_id: ID của giải đấu (Foreign Key)
         - home_team: Tên đội chủ nhà
