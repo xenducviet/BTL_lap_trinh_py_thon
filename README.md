@@ -1,4 +1,4 @@
-THOI DÕI bảng xếp hạng của các đội bóng trong giải đấu
+THOI DÕI BẢNG XẾP HẠNG CỦA CÁC ĐỘI BÓNG TRONG GIẢI ĐẤU
 1. Cơ sở dữ liệu:
      *Bảng Competitions: Lưu trữ thông tin về các giải đấu.
         - competition_id: ID của giải đấu (Primary Key)
@@ -22,8 +22,8 @@ THOI DÕI bảng xếp hạng của các đội bóng trong giải đấu
         - losses: Số trận thua
         - points: Điểm số
 
-- Stored Procedures (SP_):
-    SP_GetTopPlayers: Lấy thông tin của 4 đội bóng có số điểm cao nhất
+* Stored Procedures (SP_):
+    SP_GetTopTeam: Lấy thông tin của 4 đội bóng có số điểm cao nhất
 2. Module đọc dữ liệu:
     Sử dụng Python và FastAPI để tạo một API để lấy dữ liệu từ trang web chuyên về bóng đá hoặc dịch vụ API thương mại như FIFA
 
