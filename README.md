@@ -1,26 +1,15 @@
 THOI DÕI BẢNG XẾP HẠNG CỦA CÁC ĐỘI BÓNG TRONG GIẢI ĐẤU
 1. Cơ sở dữ liệu:
-     * Bảng Competitions: Lưu trữ thông tin về các giải đấu.
-        - competition_id: ID của giải đấu (Primary Key)
-        - name: Tên của giải đấu
-    * Bảng Matches: Lưu trữ thông tin về các trận đấu.
-        - match_id: ID của trận đấu (Primary Key)
-        - competition_id: ID của giải đấu (Foreign Key)
-        - home_team: Tên đội chủ nhà
-        - away_team: Tên đội khách
-        - match_date: Ngày diễn ra trận đấu
-        - score_home: Số bàn thắng của đội chủ nhà
-        - score_away: Số bàn thắng của đội khách
-    * Bảng Teams: Lưu trữ thông tin về các đội bóng.
-        - team_id: ID của đội bóng (Primary Key)
-        - name: Tên của đội bóng
-    * Bảng TeamStats: Lưu trữ thống kê kết quả của từng đội trong mỗi trận đấu.
-        - match_id: ID của trận đấu (Foreign Key)
-        - team_id: ID của đội bóng (Foreign Key)
+    * Bảng RANKS: Lưu trữ thống kê kết quả giải đấu.
+        - id_rank: ID 
+        - team: Tên đội bóng
         - wins: Số trận thắng
         - draws: Số trận hòa
         - losses: Số trận thua
+        - played: Số trận đã hoàn thành
+        - remaining: số trận còn lại
         - points: Điểm số
+        - ranh: bảng xếp hạng
 
 * Stored Procedures (SP_):
     SP_GetTopTeam: Lấy thông tin của 4 đội bóng có số điểm cao nhất
