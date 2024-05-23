@@ -1,0 +1,10 @@
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\bin\web.dll.config
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\bin\web.dll
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\bin\web.pdb
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\bin\Newtonsoft.Json.dll
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\bin\Newtonsoft.Json.xml
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\obj\Debug\web.csproj.AssemblyReference.cache
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\obj\Debug\web.csproj.CoreCompileInputs.cache
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\obj\Debug\web.csproj.CopyComplete
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\obj\Debug\web.dll
+D:\LapTrinhPython\BAI-THI-HOC-KY\web\web\obj\Debug\web.pdb

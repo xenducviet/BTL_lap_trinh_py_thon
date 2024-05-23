@@ -1,0 +1,27 @@
+[
+    {
+        "id": "a4820435e103e544",
+        "type": "http request",
+        "z": "d195b902dcf86f24",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:8000/2021",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "1d0428bfc4043dbb",
+                "55c0c8c1eb2b1048"
+            ]
+        ]
+    }
+]
